@@ -1,14 +1,15 @@
 {
-  "name": "@jscarton/fast-csv-format",
+  "name": "jscarton-fast-csv-parse",
   "version": "1.0.0",
-  "description": "fast-csv formatting module. ES2015 version",
+  "description": "fast-csv parsing package. ES2015 version",
   "keywords": [
     "csv",
-    "format",
-    "write"
+    "parse",
+    "fast-csv",
+    "parser"
   ],
   "author": "doug-martin <doug@dougamartin.com>",
-  "homepage": "http://c2fo.github.com/fast-csv/packages/format",
+  "homepage": "http://c2fo.github.com/fast-csv/packages/parse",
   "license": "MIT",
   "main": "build/src/index.js",
   "types": "build/src/index.d.ts",
@@ -25,7 +26,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jscarton/fast-csv.git",
-    "directory": "packages/format"
+    "directory": "packages/jscarton-fast-csv-parse"
   },
   "scripts": {
     "prepublishOnly": "npm run build",
@@ -39,16 +40,22 @@
   "dependencies": {
     "@types/node": "^14.0.1",
     "lodash.escaperegexp": "^4.1.2",
-    "lodash.isboolean": "^3.0.3",
-    "lodash.isequal": "^4.5.0",
+    "lodash.groupby": "^4.6.0",
     "lodash.isfunction": "^3.0.9",
-    "lodash.isnil": "^4.0.0"
+    "lodash.isnil": "^4.0.0",
+    "lodash.isundefined": "^3.0.1",
+    "lodash.uniq": "^4.5.0"
   },
   "devDependencies": {
     "@types/lodash.escaperegexp": "4.1.6",
-    "@types/lodash.isboolean": "3.0.6",
-    "@types/lodash.isequal": "4.5.5",
+    "@types/lodash.groupby": "4.6.6",
     "@types/lodash.isfunction": "3.0.6",
-    "@types/lodash.isnil": "4.0.6"
+    "@types/lodash.isnil": "4.0.6",
+    "@types/lodash.isundefined": "3.0.6",
+    "@types/lodash.partition": "4.6.6",
+    "@types/lodash.uniq": "4.5.6",
+    "@types/sinon": "10.0.2",
+    "lodash.partition": "4.6.0",
+    "sinon": "11.1.2"
   }
 }

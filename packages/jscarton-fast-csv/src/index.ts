@@ -14,7 +14,7 @@ export {
     RowHashArray as FormatterRowHashArray,
     RowTransformCallback as FormatterRowTransformCallback,
     RowTransformFunction as FormatterRowTransformFunction,
-} from '@jscarton/fast-csv-format';
+} from 'jscarton-fast-csv-format';
 
 export {
     parse,
@@ -37,4 +37,4 @@ export {
     RowTransformFunction as ParserRowTransformFunction,
     HeaderArray as ParserHeaderArray,
     HeaderTransformFunction as ParserHeaderTransformFunction,
-} from '@jscarton/fast-csv-parse';
+} from 'jscarton-fast-csv-parse';

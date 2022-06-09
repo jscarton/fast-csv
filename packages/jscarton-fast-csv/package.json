@@ -1,5 +1,5 @@
 {
-  "name": "@jscarton/fast-csv",
+  "name": "jscarton-fast-csv",
   "version": "1.0.0",
   "description": "CSV parser and writer. ES2015 version",
   "main": "./build/src/index.js",
@@ -20,7 +20,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jscarton/fast-csv.git",
-    "directory": "packages/fast-csv"
+    "directory": "packages/jscarton-fast-csv"
   },
   "keywords": [
     "csv",
@@ -37,7 +37,7 @@
     "node": ">=10.0.0"
   },
   "dependencies": {
-    "@jscarton/fast-csv-format": "1.0.0",
-    "@jscarton/fast-csv-parse": "1.0.0"
+    "jscarton-fast-csv-format": "1.0.0",
+    "jscarton-fast-csv-parse": "1.0.0"
   }
 }
