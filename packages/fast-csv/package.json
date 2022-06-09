@@ -1,6 +1,6 @@
 {
-  "name": "fast-csv",
-  "version": "4.3.6",
+  "name": "@jscarton/fast-csv",
+  "version": "1.0.0",
   "description": "CSV parser and writer. ES2015 version",
   "main": "./build/src/index.js",
   "types": "./build/src/index.d.ts",
@@ -19,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/C2FO/fast-csv.git",
+    "url": "git+https://github.com/jscarton/fast-csv.git",
     "directory": "packages/fast-csv"
   },
   "keywords": [
@@ -37,7 +37,7 @@
     "node": ">=10.0.0"
   },
   "dependencies": {
-    "@fast-csv/format": "4.3.5",
-    "@fast-csv/parse": "4.3.6"
+    "@jscarton/fast-csv-format": "1.0.0",
+    "@jscarton/fast-csv-parse": "1.0.0"
   }
 }

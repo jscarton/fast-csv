@@ -3,9 +3,9 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "fast-csv": ["packages/fast-csv/src"],
-      "@fast-csv/format": ["packages/format/src"],
-      "@fast-csv/parse": ["packages/parse/src"]
+      "@jscarton/fast-csv": ["packages/fast-csv/src"],
+      "@jscarton/fast-csv-format": ["packages/format/src"],
+      "@jscarton/fast-csv-parse": ["packages/parse/src"]
     }
   },
   "references": [
