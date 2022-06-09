@@ -1,7 +1,7 @@
 {
   "name": "@fast-csv/format",
   "version": "4.3.5",
-  "description": "fast-csv formatting module",
+  "description": "fast-csv formatting module. ES2015 version",
   "keywords": [
     "csv",
     "format",
