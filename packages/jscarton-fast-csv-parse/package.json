@@ -18,7 +18,8 @@
     "test": "__tests__"
   },
   "files": [
-    "build/src/**"
+    "build/src/**",
+    "src/**"
   ],
   "publishConfig": {
     "access": "public"

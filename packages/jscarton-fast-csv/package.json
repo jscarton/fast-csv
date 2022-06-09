@@ -15,7 +15,8 @@
     "test": "__tests__"
   },
   "files": [
-    "build/src/**"
+    "build/src/**",
+    "src/**"
   ],
   "repository": {
     "type": "git",
