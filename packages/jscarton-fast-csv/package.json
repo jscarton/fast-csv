@@ -2,8 +2,8 @@
   "name": "jscarton-fast-csv",
   "version": "1.0.0",
   "description": "CSV parser and writer. ES2015 version",
-  "main": "./build/src/index.js",
-  "types": "./build/src/index.d.ts",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
   "scripts": {
     "prepublishOnly": "npm run build",
     "build": "npm run clean && npm run compile",
@@ -15,7 +15,6 @@
     "test": "__tests__"
   },
   "files": [
-    "build/src/**",
     "src/**"
   ],
   "repository": {

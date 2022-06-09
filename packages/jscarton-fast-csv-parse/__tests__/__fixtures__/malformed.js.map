@@ -1,0 +1,1 @@
+{"version":3,"file":"malformed.js","sourceRoot":"","sources":["malformed.ts"],"names":[],"mappings":";;;AAAA,6BAA+B;AAC/B,yBAAyB;AAGZ,QAAA,SAAS,GAA0B;IAC5C,IAAI,EAAE,cAAO,CAAC,SAAS,EAAE,KAAK,EAAE,eAAe,CAAC;IAEhD,OAAO,EAAE;QACL,4CAA4C;QAC5C,uEAAuE;QACvE,8DAA8D;KACjE,CAAC,IAAI,CAAC,QAAG,CAAC;IAEX,MAAM,EAAE,EAAE;CACb,CAAC"}

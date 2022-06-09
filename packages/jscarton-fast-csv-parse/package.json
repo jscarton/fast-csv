@@ -11,14 +11,13 @@
   "author": "doug-martin <doug@dougamartin.com>",
   "homepage": "http://c2fo.github.com/fast-csv/packages/parse",
   "license": "MIT",
-  "main": "build/src/index.js",
-  "types": "build/src/index.d.ts",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
   "directories": {
     "lib": "src",
     "test": "__tests__"
   },
   "files": [
-    "build/src/**",
     "src/**"
   ],
   "publishConfig": {
